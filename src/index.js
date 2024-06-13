@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
+import Sidebar from ":/components/Sidebar"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <navbar />
+
+    <Sidebar />
+
 );
+
 
